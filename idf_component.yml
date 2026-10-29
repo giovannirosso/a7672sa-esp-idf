@@ -1,0 +1,5 @@
+version: "2.0.0"
+description: "ESP-IDF driver for the SIMCOM A7672SA LTE modem (MQTT, HTTP/HTTPS, SSL/TLS, modem FS, NTP) over AT commands"
+license: "MIT"
+dependencies:
+  idf: ">=5.0"

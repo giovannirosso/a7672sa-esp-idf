@@ -1,0 +1,9 @@
+menu "A7672SA LTE Modem Configuration"
+
+    config A7672SA_DEBUG_LOG
+        bool "Enable Debug Logging"
+        default n
+        help
+            Enable verbose debug logging for A7672SA modem communication.
+
+endmenu
