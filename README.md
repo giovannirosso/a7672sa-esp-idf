@@ -56,14 +56,14 @@ No `main/idf_component.yml` do seu projeto:
 ```yaml
 dependencies:
   a7672sa:
-    git: "<URL deste repositório>"
-    version: "<tag ou branch>"
+    git: "https://github.com/giovannirosso/a7672sa-esp-idf.git"
+    version: "main"  # ou uma tag/commit específico
 ```
 
 ### Opção 2: submódulo git
 
 ```bash
-git submodule add <URL deste repositório> components/a7672sa
+git submodule add https://github.com/giovannirosso/a7672sa-esp-idf.git components/a7672sa
 ```
 
 O ESP-IDF detecta automaticamente os componentes dentro de `components/`.
